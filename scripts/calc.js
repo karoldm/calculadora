@@ -1,0 +1,1 @@
+window.Calc = new CalcController();
