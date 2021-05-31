@@ -39,7 +39,7 @@ class CalcController{
                 this.AddOperation(button);
             break;
             case 'Del':
-                this.DeletLastNumber();
+                this.DeletLastDig();
             break;
             case 'C':
                 this.DeletAll();
@@ -94,16 +94,15 @@ class CalcController{
         let value = this.Operation[this.Operation.length - 2];
         this.lastNumber = this.lastNumber * value;
         this.Operation.push(this.lastNumber);
-        this.lastNumber = " ";
-        this.Calc();
+        this.setLastNumber();
     }
 
     DeletLastOperation(){
 
     }
 
-    DeletLastNumber(){
-        //usar pop
+    DeletLastDig(){
+        
     }
 
     DeletAll(){
