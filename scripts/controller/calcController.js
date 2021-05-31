@@ -80,6 +80,16 @@ class CalcController{
                 if(isNaN(this.Operation[this.Operation.length -1])) this.Operation.push(this.lastNumber);
                 this.Calc();
             break;
+            case '.':
+                this.addDot();
+            break;
+        }
+    }
+
+    addDot(){
+        if(!this.isOperator(this.Operation[this.Operation.length])){ //ponto após operador é inválido
+            this.lastNumber += ".";
+            this.setDisplay(this.getDisplay() + ".");
         }
     }
 
