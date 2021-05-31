@@ -3,7 +3,7 @@
     font-weight: bold;
     background-color: rgb(243, 240, 240);
     height: 510px;
-    width: 400px;
+    width: 450px;
     border: solid 1px darkgray;
 }
 
@@ -12,7 +12,7 @@
     margin: 10px;
     background-color: rgb(243, 240, 240);
     height: 130px;
-    width: 380px;
+    width: 430px;
     font-size: 40px;
     display: flex;
     align-items: flex-end;
@@ -26,7 +26,7 @@
     border: 0px;
     background-color: white;
     height: 55px;
-    width: 95px;
+    width: 106px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +44,7 @@
 #buttons{
     position: absolute;
     top: 160px;
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
